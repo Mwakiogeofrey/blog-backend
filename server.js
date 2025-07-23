@@ -15,7 +15,7 @@ connectDB();
 app.use(cors());
 app.use(express.json());
 app.use(cors({
-  origin: 'http://localhost:5173', // or whatever your frontend port is
+  origin: 'https://vercel.com/geofrey-killetas-projects/blog-frontend/8yAKLpajwyWsh92qMXrwSWjx5N5B', // or whatever your frontend port is
   credentials: true
 }));
 
